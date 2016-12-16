@@ -1,4 +1,4 @@
-#This code works assuming that the hand is in the centre of the picture
+#This code works assuming that some part of the hand is in the centre of the picture
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt 
