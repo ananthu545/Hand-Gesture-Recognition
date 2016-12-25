@@ -22,7 +22,7 @@ while(1):
     d=int(frame.shape[0]/2+20) 
     
   
-    #ROI rectangles
+    # Displaying ROI rectangles
     box_x=np.array([150+a,150+b+20,150+a,150+b+20,150+a,150+b+20],dtype=int)
     box_y=np.array([c,c,d+20,d+20,d+80,d+80],dtype=int)
     for i in range(6):
