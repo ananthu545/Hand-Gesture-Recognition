@@ -23,7 +23,7 @@ thresh = cv2.merge((thresh,thresh,thresh))
 #Convolving 
 disc = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(11,11))
 cv2.filter2D(thresh,-1,disc,thresh)
-#Bitwise and
+# Applying Bitwise_and and diplaying output
 final = cv2.bitwise_and(i,thresh)
 cv2.imshow("NailedIt",final)
 cv2.waitKey(0)
